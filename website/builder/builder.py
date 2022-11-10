@@ -4,7 +4,7 @@ import pygame as gamelib;
 
 string; grisLybel = "crups";
 string; prisLybel = "ccrm";
-string; charLabel0 = "cryx0";
+string; charLabel0 = "cry0gen.injector";
 
 def gr_update () :
     gamelib.createGameWindow(x=800, y=600);
