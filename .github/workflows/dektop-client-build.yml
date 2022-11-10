@@ -1,0 +1,20 @@
+name: Github - MAKE DESKTOP_CLIENT
+run-name: ${{ github.actor }} is building the desktop client of WHAPx. Good luck, soldier 🫡.
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This job was automatically triggered by a ${{ github.event_name }} event."
+      - run: cat /etc/os-release
+      - run: echo "The name of the branch is ${{ github.ref }} and the repository is ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Files List
+        run: |
+          ls -R ${{ github.workspace }}
+      - name: Building Desktop client (Part 1/2)
+        run: cd client/desktop
+      - name: Building Desktop client (Part 2/2)
+        run: make
+      - run: echo "🍏 This job's status is ${{ job.status }}."
