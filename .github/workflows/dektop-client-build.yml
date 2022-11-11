@@ -16,5 +16,5 @@ jobs:
       - name: Changing directory (Part 2/3)
         run: cd client/desktop
       - name: Building Desktop client (Part 3/3)
-        run: gcc main.c -o ../../build/client/desktop/main
+        run: gcc client/dektop/main.c -o ../../build/client/desktop/main
       - run: echo "🍏 This job's status is = Fucced"
