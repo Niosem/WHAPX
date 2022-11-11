@@ -2,7 +2,7 @@ name: Github - MAKE DESKTOP_CLIENT
 run-name: ${{ github.actor }} is building the desktop client of WHAPx. Good luck, soldier 🫡.
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  Make_DesktopClient:
     runs-on: ubuntu-latest
     steps:
       - run: echo "This job was automatically triggered by a ${{ github.event_name }} event."
@@ -15,4 +15,4 @@ jobs:
           ls -R ${{ github.workspace }}
       - name: Building Desktop client (Part 2/2)
         run: make
-      - run: echo "🍏 This job's status is Fucced"
+      - run: echo "🍏 This job's status is = Fucced"
