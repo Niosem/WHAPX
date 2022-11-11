@@ -1,3 +1,3 @@
 # Niosem WHAPx
 
-![image info](./img/logo.png)
+<img src="/img/logo.png" alt="drawing" width="200"/>
