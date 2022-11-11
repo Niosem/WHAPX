@@ -1,0 +1,42 @@
+Niosem WHAPx - Developer guide
+
+EXPLAINED ON A FOLDER BY FOLDER BASIS
+
+.idea (in any folder): used jetbrains for a week, and switched back.
+
+.github & .vscode : DO NOT TOUCH - important for vs code users and github.
+
+api : 
+    not used for anything.
+
+backend : 
+    the bones of the project. I, InsydeHere20, spent no time in there.
+
+build : 
+    cMake configs and shit.
+
+client : 
+    desktop : Desktop WHAPx client. I do not know how to write it, pls help.
+    WebClient : The we WHAPx client. I f-ing hate JavaScript.
+
+docs :
+    Documentation. If you make a new file, explain what it does in a .txt file in the relevant folder.
+    If you modify an existing file, make sure to explain what you did.
+
+get-familiar :
+    devguide : developer guide(s).
+    team : the team
+
+img : 
+    logos and other images used in the project
+
+tests :
+    Unit tests. I, InsydeHere20, declare that i have not written any unit tests.
+
+website : 
+    builder: Python Website Compiler (PWC)
+
+workflow : 
+    edit github actions workflow without spending precios minutes each time you edit the workflow/any file and commit
+    Put a workflow (from .github/workflows) here to de-activate it and EDIT IT HERE 
+    (i spent half of my minute because of this)
