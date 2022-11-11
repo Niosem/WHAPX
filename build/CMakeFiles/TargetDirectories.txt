@@ -1,3 +1,0 @@
-/Users/aristidebauchart/Documents/WHAPX/build/CMakeFiles/desktop.dir
-/Users/aristidebauchart/Documents/WHAPX/build/CMakeFiles/edit_cache.dir
-/Users/aristidebauchart/Documents/WHAPX/build/CMakeFiles/rebuild_cache.dir

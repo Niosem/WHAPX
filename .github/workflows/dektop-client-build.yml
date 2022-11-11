@@ -10,9 +10,11 @@ jobs:
       - run: echo "The name of the branch is ${{ github.ref }} and the repository is ${{ github.repository }}."
       - name: Check out repository code
         uses: actions/checkout@v3
-      - name: Files List (Part 1/2)
+      - name: Files List (Part 1/3)
         run: |
           ls -R ${{ github.workspace }}
-      - name: Building Desktop client (Part 2/2)
-        run: make
+      - name: Changing directory (Part 2/3)
+        run: cd client/desktop
+      - name: Building Desktop client (Part 3/3)
+        run: gcc main.c -o ../../build/client/desktop/main
       - run: echo "🍏 This job's status is = Fucced"

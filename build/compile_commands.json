@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/Users/aristidebauchart/Documents/WHAPX/build",
-  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -std=gnu99 -o CMakeFiles/desktop.dir/main.c.o -c /Users/aristidebauchart/Documents/WHAPX/client/desktop/main.c",
-  "file": "/Users/aristidebauchart/Documents/WHAPX/client/desktop/main.c"
-}
-]
