@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Thu Nov 10 21:25:23 2022
+# Make data base, printed on Fri Nov 11 10:29:03 2022
 
 # Variables
 
@@ -129,6 +129,9 @@ HOMEBREW_PREFIX = /opt/homebrew
 HOMEBREW_REPOSITORY = /opt/homebrew
 # environment
 __CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x1
+ 
+make: *** No rule to make target `all'.  Stop.
+
 # environment
 COMMAND_MODE = unix2003
 # environment
@@ -152,7 +155,7 @@ MAKELEVEL := 0
 # environment
 CONDA_PREFIX = /Users/aristidebauchart/micromamba
 # environment
-VSCODE_PID = 49553
+VSCODE_PID = 55944
 # environment
 _CE_CONDA = 
 # environment
@@ -240,8 +243,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Nov 10 21:25:23 2022
+# Finished Make data base on Fri Nov 11 10:29:03 2022
 
  
-make: *** No rule to make target `all'.  Stop.
-
