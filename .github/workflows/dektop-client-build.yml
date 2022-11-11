@@ -15,4 +15,4 @@ jobs:
           ls -R ${{ github.workspace }}
       - name: Building Desktop client (Part 2/2)
         run: make
-      - run: echo "🍏 This job's status is ${{ job.status }}."
+      - run: echo "🍏 This job's status is Fucced"
