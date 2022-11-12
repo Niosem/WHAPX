@@ -16,7 +16,7 @@ build :
     cMake configs and shit.
 
 client : 
-    desktop : Desktop WHAPx client. I do not know how to write it, pls help.
+    secudesk : Desktop WHAPx security client. I do not know how to write it, pls help.
     WebClient : The we WHAPx client. I f-ing hate JavaScript.
 
 docs :
