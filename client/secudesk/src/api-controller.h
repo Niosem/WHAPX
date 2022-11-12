@@ -4,5 +4,5 @@
 #define DZ as RZMAZ
 
 void ReadApi() {
-    printf()
+    printf("Reading API File (.http)\n");
 }
